@@ -1,0 +1,29 @@
+.journey-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 250px;
+    height: 150px;
+    border-radius: 0;
+    position: relative;
+    border: 4px solid black;
+    box-shadow: 4px 4px 0 0 black, 8px 8px 0 0 #333, 12px 12px 0 0 #555;
+    overflow: hidden;
+    transition: 0.15s all ease-in-out;
+    -webkit-transition: 0.15s all ease-in-out;
+    -moz-transition: 0.15s all ease-in-out;
+    -ms-transition: 0.15s all ease-in-out;
+    -o-transition: 0.15s all ease-in-out;
+}
+
+.journey-content:hover {
+    transform: scale(1.05);
+}
+
+.image-content {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
